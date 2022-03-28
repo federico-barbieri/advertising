@@ -136,7 +136,14 @@ transform: translateX(-1rem);
     padding-top: 1rem;
     font-size: 2rem;
     color: black;
-    margin-left: 3rem;
+}
+
+.logo-burga{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
 }
 
 
