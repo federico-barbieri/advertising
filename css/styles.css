@@ -115,7 +115,7 @@ transform: translateX(-1rem);
     padding-bottom: 5rem;
 }
 
-.chesstrends-li{
+.touch-li{
     padding-top: 5rem;
 }
 
@@ -125,7 +125,7 @@ transform: translateX(-1rem);
     cursor: pointer;
     z-index: 10;
     color: grey;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
    
 }
 
