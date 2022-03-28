@@ -131,10 +131,9 @@ transform: translateX(-1rem);
 
 .nav-logo{
     display: inline;
-    max-width: 40vw;
-    max-height: 10vh;
+    max-width: 30vw;
+    max-height: 8vh;
     padding-top: 1rem;
-    font-size: 2rem;
     color: black;
 }
 
