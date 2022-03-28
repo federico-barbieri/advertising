@@ -127,10 +127,11 @@ transform: translateX(-1rem);
 
 .nav-logo{
     display: inline;
-    max-width: 30vw;
+    max-width: 20vw;
     max-height: 8vh;
     transform: scale(0.5);
     color: black;
+    
 }
 
 .logo-burga{
@@ -139,7 +140,7 @@ transform: translateX(-1rem);
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
 
 }
 
