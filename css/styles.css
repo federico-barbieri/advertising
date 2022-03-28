@@ -609,7 +609,8 @@ transform: translateX(-1rem);
   }
 
   .fa-linkedin{
-      transform: scale(3.5);
+      transform: scale(3.5) translateX(1rem);
+
   }
 
   
