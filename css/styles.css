@@ -239,7 +239,7 @@ transform: translateX(-1rem);
 /* ADA SECTION */
 
 #ada-project{
-    width: 70%;
+    width: 80%;
     min-height: 25rem;
     display: flex;
     flex-direction: column;
@@ -268,7 +268,7 @@ transform: translateX(-1rem);
   /* MOET SECTION */
 
   #moet-project{
-    width: 70%;
+    width: 80%;
     height: 25rem;
     display: flex;
     flex-direction: column;
@@ -301,7 +301,7 @@ transform: translateX(-1rem);
   /* ZOE SECTION */
 
   #zoe-project{
-    width: 70%;
+    width: 80%;
     height: 25rem;
     display: flex;
     flex-direction: column;
@@ -365,7 +365,7 @@ transform: translateX(-1rem);
 /* SUMMER CONTENT */
 
 #summer-text{
-    width: 70%;
+    width: 80%;
     height: 25rem;
     display: flex;
     flex-direction: column;
@@ -395,7 +395,7 @@ transform: translateX(-1rem);
   /* BOARD CONTENT */
 
 #board-text{
-    width: 70%;
+  width: 80%;
     height: 25rem;
     display: flex;
     flex-direction: column;
@@ -404,6 +404,7 @@ transform: translateX(-1rem);
     margin: 0rem auto 5rem auto;
     text-align: center;
     border: 1px solid gray;
+    padding: 0 0.5rem;
   }
   
   .board-title{
@@ -425,7 +426,7 @@ transform: translateX(-1rem);
   /* THINGS CONTENT */
 
 #things-text{
-    width: 70%;
+    width: 80%;
     height: 25rem;
     display: flex;
     flex-direction: column;
@@ -434,6 +435,7 @@ transform: translateX(-1rem);
     margin: 0rem auto 5rem auto;
     text-align: center;
     border: 1px solid gray;
+    padding: 0 0.5rem;
   }
   
   .things-title{

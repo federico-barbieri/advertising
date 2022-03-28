@@ -10,5 +10,5 @@ const ulNav = document.querySelector('.nav-ul');
 
 hamburger.addEventListener('click', () => {
     ulNav.classList.toggle('open');
-    
+
 })
