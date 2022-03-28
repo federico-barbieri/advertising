@@ -499,7 +499,7 @@ transform: translateX(-1rem);
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 70%;
     margin: 4rem auto 1rem auto;
   }
   
@@ -609,7 +609,7 @@ transform: translateX(-1rem);
   }
 
   .fa-linkedin{
-      transform: scale(3.5) translateX(1rem);
+      transform: scale(3.5) translateX(0.5rem);
 
   }
 
