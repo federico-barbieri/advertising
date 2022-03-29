@@ -597,8 +597,8 @@ transform: translateX(-1rem);
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto 0rem auto;
-    max-width: 50%;
+    margin: 0 auto 0rem 5rem;
+    max-width: 70%;
     padding-bottom: 2rem;
   }
 
@@ -606,11 +606,16 @@ transform: translateX(-1rem);
       width: 50px;
       height: auto;
       padding-top: 0.3rem;
+   
   }
 
   .fa-linkedin{
-      transform: scale(3.5) translateX(0.5rem);
+      transform: scale(3.5);
+      padding-right: 0.5rem;
+  }
 
+  .fa-github{
+    transform: scale(3.5);
   }
 
   
