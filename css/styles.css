@@ -229,7 +229,7 @@ transform: translateX(-1rem);
 
 /* COPYWRITING ARTICLE */
 
-.copywriting{
+#copywriting{
     width: 100vw;
     min-height: 100vh;
     
@@ -373,7 +373,7 @@ transform: translateX(-1rem);
   
 /* CONTENT ARTICLE */
 
-.content{
+#content{
     width: 100vw;
     min-height: 200vh;
     font-family: poppins, sans-serif;
