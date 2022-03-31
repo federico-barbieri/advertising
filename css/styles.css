@@ -194,7 +194,7 @@ transform: translateX(-1rem);
 
 /* ABOUT ARTICLE */
 
-.about{
+#about{
     width: 100vw;
     min-height: 50vh;
     
