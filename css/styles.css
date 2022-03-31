@@ -30,7 +30,7 @@ a:visited{
     display: grid;
     
     grid-template-columns: 1fr;
-    grid-template-rows: 100vh 50vh 100vh 200vh 50vh 50vh 60vh;
+    grid-template-rows: 100vh 50vh 100vh 200vh 60vh 60vh 50vh;
     grid-template-areas: 
     "header"
     "about"
@@ -47,7 +47,7 @@ a:visited{
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: normal;
-    overflow: hidden;
+  
     }
 
 
@@ -180,6 +180,7 @@ transform: translateX(-1rem);
   align-items: center;
   justify-content: space-around;
   width: 90%;
+  color: white;
 }
 
 
@@ -209,6 +210,11 @@ transform: translateX(-1rem);
     
     margin: 2rem auto 2rem auto;
     font-size: 2.5rem;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
+    
+    font-style: normal;
 
 }
 
@@ -241,6 +247,11 @@ transform: translateX(-1rem);
     margin: 0 auto 2rem auto;
     font-size: 2.5rem;
     padding-top: 5rem;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
+    
+    font-style: normal;
 }
 
 .copywriting-p{
@@ -266,8 +277,12 @@ transform: translateX(-1rem);
   }
   
   .ada-title{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
     
+    font-style: normal;
   }
   
   .ada-btn{
@@ -296,8 +311,12 @@ transform: translateX(-1rem);
   
   
   .moet-title{
-    font-size: 2.5rem;
-    color: gray;
+    font-size: 2rem;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
+    
+    font-style: normal;
 
   }
   
@@ -329,8 +348,12 @@ transform: translateX(-1rem);
   
   
   .zoe-title{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
     
+    font-style: normal;
 
   }
   
@@ -367,6 +390,11 @@ transform: translateX(-1rem);
     margin: 0 auto 2rem auto;
     font-size: 2.5rem;
     padding-top: 5rem;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
+    
+    font-style: normal;
 }
 
 .content-p{
@@ -389,11 +417,16 @@ transform: translateX(-1rem);
     margin: 0rem auto 5rem auto;
     text-align: center;
     border: 1px solid gray;
+    padding: 0 0.5rem;
   }
   
   .summer-title{
     font-size: 2rem;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
     
+    font-style: normal;
 
   }
   
@@ -424,7 +457,11 @@ transform: translateX(-1rem);
   
   .board-title{
     font-size: 2rem;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
     
+    font-style: normal;
 
   }
   
@@ -455,7 +492,11 @@ transform: translateX(-1rem);
   
   .things-title{
     font-size: 2rem;
-    color: gray;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
+    
+    font-style: normal;
 
   }
   
@@ -473,16 +514,25 @@ transform: translateX(-1rem);
 
 .stack{
     width: 100vw;
-    min-height: 50vh;
+    min-height: 60vh;
     text-align: center;
     margin: 0 0;
     grid-area: stack;
-    overflow: hidden;
+  background-color: #1F2125;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .stack-h2{
     margin: 2rem auto 2rem auto;
     font-size: 2rem;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
+    
+    font-style: normal;
     
 }
 
@@ -493,7 +543,7 @@ transform: translateX(-1rem);
     justify-content: space-between;
     width: 70%;
     
-    margin: 5rem auto 2rem auto;
+    margin: 2rem auto 2rem auto;
   }
 
 
@@ -515,7 +565,7 @@ transform: translateX(-1rem);
     align-items: center;
     justify-content: space-between;
     width: 70%;
-    margin: 4rem auto 1rem auto;
+    margin: 2rem auto 1rem auto;
   }
   
   .illustrator{
@@ -544,7 +594,7 @@ transform: translateX(-1rem);
 
 #touch{
     width: 100vw;
-    min-height: 50vh;
+    min-height: 60vh;
     text-align: center;
     margin: 0 auto;
     grid-area: touch;
@@ -556,6 +606,11 @@ transform: translateX(-1rem);
 .touch-h2{
     margin: 2rem auto 2rem auto;
     font-size: 2rem;
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
+    
+    font-style: normal;
 
 }
 
@@ -593,7 +648,7 @@ transform: translateX(-1rem);
 
 #footer{
     width: 100%;
-    min-height: 60vh;
+    min-height: 50vh;
     margin: 1rem auto;
     display: flex;
     flex-direction: column;
@@ -609,7 +664,14 @@ transform: translateX(-1rem);
   .footer-h4{
     margin: 2rem auto;
     z-index: 50;
+  
+    font-family: noka, sans-serif;
+
+    font-weight: 100;
+    
+    font-style: normal;
     color:#1F2125;
+    opacity: 100%;
   }
   
   .versions{
@@ -620,8 +682,7 @@ transform: translateX(-1rem);
     margin: 0 auto 0rem 5rem;
     max-width: 70%;
     padding-bottom: 2rem;
-    color:#1F2125;
-    color: blue;
+    
   }
 
   .mirror{
