@@ -662,7 +662,7 @@ transform: translateX(-1rem);
 
 #footer{
     width: 100%;
-    min-height: 50vh;
+    min-height: 20vh;
     margin: 1rem auto;
     display: flex;
     flex-direction: column;
@@ -715,6 +715,13 @@ transform: translateX(-1rem);
   .fa-github{
     transform: scale(3.5);
     color: black;
+  }
+
+  .fb-img-footer{
+    max-width: 60%;
+    max-height: 15rem;
+    opacity: 100%;
+    margin: 1rem auto 0 auto;
   }
 
   
