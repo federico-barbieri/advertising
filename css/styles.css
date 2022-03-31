@@ -197,8 +197,8 @@ transform: translateX(-1rem);
     width: 100vw;
     min-height: 50vh;
     
-    font-family: ador-hairline, sans-serif;
-    font-weight: 200;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
     font-style: normal;
     text-align: center;
     margin: 0 0;
@@ -233,8 +233,8 @@ transform: translateX(-1rem);
     width: 100vw;
     min-height: 100vh;
     
-    font-family: ador-hairline, sans-serif;
-    font-weight: 200;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
     font-style: normal;
     text-align: center;
     margin: 0 0;
@@ -376,8 +376,8 @@ transform: translateX(-1rem);
 .content{
     width: 100vw;
     min-height: 200vh;
-    font-family: ador-hairline, sans-serif;
-    font-weight: 200;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
     font-style: normal;
     text-align: center;
     margin: 0 0;
@@ -602,6 +602,9 @@ transform: translateX(-1rem);
     overflow: hidden;
     background-color: #1F2125;
     color: #E8DFCE;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .touch-h2{
@@ -659,7 +662,7 @@ transform: translateX(-1rem);
     grid-area: footer;
     overflow: hidden;
     background-color:#E8DFCE;
-    color:#1F2125;
+    
   }
   
   .footer-h4{
