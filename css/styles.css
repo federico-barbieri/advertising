@@ -12,6 +12,7 @@ body{
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    
 }
 
 a{
@@ -41,8 +42,12 @@ a:visited{
     
     
     margin: 0 auto;
-
-
+    background-color: #1F2125;
+    color: #E8DFCE;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
     }
 
 
@@ -52,7 +57,7 @@ a:visited{
 #header{
     width: 100vw;
     min-height: 100vh;
-    background-color: white;
+
     grid-area: header;
 }
 
@@ -60,7 +65,7 @@ a:visited{
 
 nav{
     
-    color: white;
+
     height: 15vh;
     display: flex;
     flex-direction: row;
@@ -93,7 +98,7 @@ nav{
     clip-path: circle(450px);
     --wekbkit-clip-path: circle(450px);
     height: 130vh;
-    background-color: black;
+    background-color: #1F2125;
 }
 
 .nav-ul li{
@@ -120,7 +125,7 @@ transform: translateX(-1rem);
     transform: scale(2);
     cursor: pointer;
     z-index: 30;
-    color: #6D8299;
+    
 
    
 }
@@ -130,7 +135,7 @@ transform: translateX(-1rem);
     max-width: 20vw;
     max-height: 8vh;
     transform: scale(0.5);
-    color: black;
+    
     
 }
 
@@ -147,24 +152,34 @@ transform: translateX(-1rem);
 
 .fedebarbieri-h1{
     
-    color: black;
-    font-family: hero-new, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center; 
-    margin: 7rem auto 1rem auto;
-    font-size: 2.5rem;
+    
+  font-family: noka, sans-serif;
+
+  font-weight: 100;
+  
+  font-style: normal;
+  text-align: center; 
+  margin: 2rem auto 1rem auto;
+  font-size: 7rem;
+ 
 }
 
 .span-fede{
     
-    color: black;
-    font-family: hero-new, sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    text-align: center; 
-    margin: 0rem auto 0rem auto;
-    font-size: 1rem;
+    
+  font-family: noka, sans-serif;
+
+  font-weight: 100;
+  
+  font-style: normal;
+  text-align: center; 
+  margin: 5rem auto 0rem auto;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
 }
 
 
@@ -179,7 +194,7 @@ transform: translateX(-1rem);
 .about{
     width: 100vw;
     min-height: 50vh;
-    background-color: white;
+    
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -210,7 +225,7 @@ transform: translateX(-1rem);
 .copywriting{
     width: 100vw;
     min-height: 100vh;
-    background-color: white;
+    
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -252,11 +267,11 @@ transform: translateX(-1rem);
   
   .ada-title{
     font-size: 2.5rem;
-    color: gray;
+    
   }
   
   .ada-btn{
-    background-color: #0F1123;
+    
     font-size: 1.5rem;
     color: white;
     padding: 0.5rem 2.5rem 0.5rem 2.5rem;
@@ -288,7 +303,7 @@ transform: translateX(-1rem);
   
   
   .moet-btn{
-    background-color: #0F1123;
+    
     font-size: 1.5rem;
     color: white;
 
@@ -315,13 +330,13 @@ transform: translateX(-1rem);
   
   .zoe-title{
     font-size: 2.5rem;
-    color: gray;
+    
 
   }
   
   
   .zoe-btn{
-    background-color: #0F1123;
+    
     font-size: 1.5rem;
     color: white;
 
@@ -378,12 +393,12 @@ transform: translateX(-1rem);
   
   .summer-title{
     font-size: 2rem;
-    color: gray;
+    
 
   }
   
   .summer-btn{
-    background-color: #0F1123;
+    
     font-size: 1.5rem;
     color: white;
     padding: 0.5rem 2rem 0.5rem 2rem;
@@ -409,12 +424,12 @@ transform: translateX(-1rem);
   
   .board-title{
     font-size: 2rem;
-    color: gray;
+    
 
   }
   
   .board-btn{
-    background-color: #0F1123;
+    
     font-size: 1.5rem;
     color: white;
     padding: 0.5rem 2rem 0.5rem 2rem;
@@ -445,7 +460,7 @@ transform: translateX(-1rem);
   }
   
   .things-btn{
-    background-color: #0F1123;
+    
     font-size: 1.5rem;
     color: white;
     padding: 0.5rem 2rem 0.5rem 2rem;
@@ -478,7 +493,7 @@ transform: translateX(-1rem);
     justify-content: space-between;
     width: 70%;
     
-    margin: 3rem auto 2rem auto;
+    margin: 5rem auto 2rem auto;
   }
 
 
@@ -534,6 +549,8 @@ transform: translateX(-1rem);
     margin: 0 auto;
     grid-area: touch;
     overflow: hidden;
+    background-color: #1F2125;
+    color: #E8DFCE;
 }
 
 .touch-h2{
@@ -585,11 +602,14 @@ transform: translateX(-1rem);
     text-align: center;
     grid-area: footer;
     overflow: hidden;
+    background-color:#E8DFCE;
+    color:#1F2125;
   }
   
   .footer-h4{
     margin: 2rem auto;
-
+    z-index: 50;
+    color:#1F2125;
   }
   
   .versions{
@@ -600,22 +620,26 @@ transform: translateX(-1rem);
     margin: 0 auto 0rem 5rem;
     max-width: 70%;
     padding-bottom: 2rem;
+    color:#1F2125;
+    color: blue;
   }
 
   .mirror{
       width: 50px;
       height: auto;
       padding-top: 0.3rem;
-   
+      
   }
 
   .fa-linkedin{
       transform: scale(3.5);
       padding-right: 0.5rem;
+      color: #0A65C2;
   }
 
   .fa-github{
     transform: scale(3.5);
+    color: black;
   }
 
   
