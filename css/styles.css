@@ -30,7 +30,7 @@ a:visited{
     display: grid;
     
     grid-template-columns: 1fr;
-    grid-template-rows: 100vh 100vh 100vh 200vh 60vh 60vh 50vh;
+    grid-template-rows: 100vh 100vh 100vh 230vh 60vh 60vh 20vh;
     grid-template-areas: 
     "header"
     "about"
@@ -385,13 +385,14 @@ transform: translateX(-1rem);
 
 #content{
     width: 100vw;
-    min-height: 200vh;
+    min-height: 230vh;
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     margin: 0 0;
     grid-area: content;
+    background-color: #1F2125;
 }
 
 
@@ -609,19 +610,23 @@ transform: translateX(-1rem);
     text-align: center;
     margin: 0 auto;
     grid-area: touch;
-    overflow: hidden;
+   
     background-color: #1F2125;
     color: #E8DFCE;
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .touch-h2{
     margin: 2rem auto 2rem auto;
     font-size: 2rem;
     font-family: noka, sans-serif;
-
+    
     font-weight: 100;
     
     font-style: normal;
@@ -664,21 +669,18 @@ transform: translateX(-1rem);
     width: 100%;
     min-height: 20vh;
     margin: 1rem auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
     text-align: center;
     grid-area: footer;
-    overflow: hidden;
-    background-color:#E8DFCE;
+    
+    background-color:white;
     
   }
   
   .footer-h4{
     margin: 2rem auto;
     z-index: 50;
-  
+    text-align: center;
     font-family: noka, sans-serif;
 
     font-weight: 100;
@@ -692,19 +694,14 @@ transform: translateX(-1rem);
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 auto 0rem 5rem;
-    max-width: 70%;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 80%;
+    min-height: auto;
     padding-bottom: 2rem;
     
   }
 
-  .mirror{
-      width: 50px;
-      height: auto;
-      padding-top: 0.3rem;
-      
-  }
 
   .fa-linkedin{
       transform: scale(3.5);
@@ -719,7 +716,7 @@ transform: translateX(-1rem);
 
   .fb-img-footer{
     max-width: 60%;
-    max-height: 15rem;
+    max-height: 8rem;
     opacity: 100%;
     margin: 1rem auto 0 auto;
   }
