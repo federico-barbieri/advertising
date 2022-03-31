@@ -98,7 +98,8 @@ nav{
     clip-path: circle(450px);
     --wekbkit-clip-path: circle(450px);
     height: 130vh;
-    background-color: #1F2125;
+    /*background-color: #1F2125;*/
+    background-color: black;
 }
 
 .nav-ul li{
