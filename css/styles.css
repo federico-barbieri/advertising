@@ -690,7 +690,7 @@ transform: translateX(-1rem);
   }
   
   .footer-h4{
-    margin: 2rem auto;
+    margin: 4rem auto;
     z-index: 50;
     text-align: center;
     font-family: noka, sans-serif;
@@ -698,7 +698,7 @@ transform: translateX(-1rem);
     font-weight: 100;
     
     font-style: normal;
-    color:#1F2125;
+    color:black;
     opacity: 100%;
   }
   
@@ -707,7 +707,7 @@ transform: translateX(-1rem);
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 1rem auto;
     max-width: 80%;
     min-height: auto;
     padding-bottom: 2rem;
@@ -728,7 +728,7 @@ transform: translateX(-1rem);
 
   .fb-img-footer{
     max-width: 60%;
-    max-height: 8rem;
+    max-height: 6rem;
     opacity: 100%;
     margin: 1rem auto 0 auto;
   }
