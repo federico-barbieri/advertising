@@ -8,9 +8,11 @@ html{
 }
 
 body{
-    font-family: poppins, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: poppins, sans-serif;
+
+  font-weight: 100;
+  
+  font-style: normal;
     text-align: center;
     
 }
@@ -45,7 +47,9 @@ a:visited{
     background-color: #1F2125;
     color: #E8DFCE;
     font-family: poppins, sans-serif;
-    font-weight: 400;
+
+    font-weight: 100;
+    
     font-style: normal;
   
     }
@@ -126,7 +130,7 @@ transform: translateX(-1rem);
 .fa-bars{
     transform: scale(2);
     cursor: pointer;
-    z-index: 30;
+    z-index: 200;
     
 
    
@@ -204,7 +208,9 @@ transform: translateX(-1rem);
     width: 100vw;
     min-height: 100vh;
     font-family: poppins, sans-serif;
-    font-weight: 400;
+
+    font-weight: 100;
+    
     font-style: normal;
     text-align: center;
     margin: 0 0;
@@ -244,7 +250,9 @@ transform: translateX(-1rem);
     min-height: 100vh;
     
     font-family: poppins, sans-serif;
-    font-weight: 400;
+
+    font-weight: 100;
+    
     font-style: normal;
     text-align: center;
     margin: 0 0;
@@ -388,7 +396,9 @@ transform: translateX(-1rem);
     width: 100vw;
     min-height: 250vh;
     font-family: poppins, sans-serif;
-    font-weight: 400;
+
+    font-weight: 100;
+    
     font-style: normal;
     text-align: center;
     background-color: #1F2125;
@@ -614,7 +624,9 @@ transform: translateX(-1rem);
     background-color: #1F2125;
     color: #E8DFCE;
     font-family: poppins, sans-serif;
-    font-weight: 400;
+
+    font-weight: 100;
+    
     font-style: normal;
     display: flex;
     flex-direction: column;
