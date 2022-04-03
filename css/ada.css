@@ -29,7 +29,7 @@ body{
   display: grid;
   
   grid-template-columns: 1fr;
-  grid-template-rows: 80vh 80vh 50vh 60vh;
+  grid-template-rows: 80vh 1000vh 50vh 60vh;
   grid-template-areas: 
   "header"
   "brief-idea"
@@ -139,8 +139,8 @@ width: 80%;
   
   font-style: normal;
   text-align: center; 
-  margin: 2rem auto 1rem auto;
-  font-size: 3rem;
+  margin: 5rem auto 1rem auto;
+  font-size: 5rem;
 
 }
 
@@ -154,10 +154,10 @@ h3{
 
 .ada-info{
   width: 80vw;
-  min-height: 80vh;
-  font-size: 1.5rem;
+  min-height: 100vh;
+  font-size: 1rem;
   color: #E8DFCE;
-  margin: 6rem auto 5rem auto;
+  margin: 3rem auto 3rem auto;
   text-align: left;
   grid-area: brief-idea;
 }
