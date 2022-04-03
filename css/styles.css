@@ -61,15 +61,10 @@ a:visited{
 #header{
     width: 100vw;
     min-height: 100vh;
-
     grid-area: header;
 }
 
-
-
 nav{
-    
-
     height: 15vh;
     display: flex;
     flex-direction: row;
@@ -88,9 +83,7 @@ nav{
     align-items: center;
     justify-content: center;
     transform: translateY(10rem);
-    
     margin: 2rem auto;
-
     clip-path: circle(0px);
     --wekbkit-clip-path: circle(0px);
     opacity: 98%;
