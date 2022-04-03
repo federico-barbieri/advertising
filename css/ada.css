@@ -29,7 +29,7 @@ body{
   display: grid;
   
   grid-template-columns: 1fr;
-  grid-template-rows: 80vh 1000vh 50vh 60vh;
+  grid-template-rows: 80vh 100vh 40vh 60vh;
   grid-template-areas: 
   "header"
   "brief-idea"
@@ -139,9 +139,19 @@ width: 80%;
   
   font-style: normal;
   text-align: center; 
-  margin: 5rem auto 1rem auto;
+  margin: 2rem auto 1rem auto;
   font-size: 5rem;
 
+}
+
+.ada-info{
+  width: 80vw;
+  min-height: 100vh;
+  font-size: 1rem;
+  color: #E8DFCE;
+  margin: 5rem auto 3rem auto;
+  text-align: left;
+  grid-area: brief-idea;
 }
 
 h3{
@@ -152,15 +162,6 @@ h3{
   color: #E8DFCE;
 }
 
-.ada-info{
-  width: 80vw;
-  min-height: 100vh;
-  font-size: 1rem;
-  color: #E8DFCE;
-  margin: 3rem auto 3rem auto;
-  text-align: left;
-  grid-area: brief-idea;
-}
 
 .ada-idea{
   text-align: right;
@@ -183,14 +184,10 @@ h3{
 
 .back{
   background-color: #E8DFCE;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #1F2125;
   padding: 0.5rem 2rem 0.5rem 2rem;
   margin: 0 auto 0 auto;
-}
-
-.back:hover{
-  cursor: pointer;
 }
 
 /* FOOTER */
@@ -202,20 +199,7 @@ h3{
   text-align: center;
   grid-area: footer;
   background-color:white;
-  
-}
-
-.footer-h4{
-  margin: 4rem auto;
-  z-index: 50;
-  text-align: center;
-  font-family: noka, sans-serif;
-
-  font-weight: 100;
-  
-  font-style: normal;
-  color:black;
-  opacity: 100%;
+  overflow: hidden;
 }
 
 .versions{
@@ -223,7 +207,7 @@ h3{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin: 1rem auto;
+  margin: 5rem auto;
   max-width: 80%;
   min-height: auto;
   padding-bottom: 2rem;
