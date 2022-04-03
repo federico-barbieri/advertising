@@ -48,8 +48,6 @@ body{
   grid-area: header;
 }
 
-
-
 nav{
   color: #E8DFCE;
   height: 15vh;
@@ -123,6 +121,9 @@ transform: translateX(-1rem);
   max-height: 8vh;
   transform: scale(0.5);
   color: #E8DFCE;
+  font-family: poppins, sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .logo-burga{
@@ -137,9 +138,7 @@ width: 80%;
 
 .ada-title{
   font-family: noka, sans-serif;
-
   font-weight: 100;
-  
   font-style: normal;
   text-align: center; 
   margin: 2rem auto 1rem auto;
@@ -191,6 +190,9 @@ h3{
   color: #1F2125;
   padding: 0.5rem 2rem 0.5rem 2rem;
   margin: 0 auto 2rem auto;
+  font-family: poppins, sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 /* FOOTER */
@@ -211,7 +213,7 @@ h3{
   align-items: center;
   justify-content: space-around;
   margin: 2rem auto 0 auto;
-  max-width: 80%;
+  max-width: 90%;
   min-height: auto;
   padding-bottom: 2rem;
   
@@ -219,13 +221,13 @@ h3{
 
 
 .fa-linkedin{
-    transform: scale(3.5);
+    transform: scale(3);
     padding-right: 0.5rem;
     color: #0A65C2;
 }
 
 .fa-github{
-  transform: scale(3.5);
+  transform: scale(3);
   color: black;
 }
 
