@@ -29,7 +29,7 @@ body{
   display: grid;
   
   grid-template-columns: 1fr;
-  grid-template-rows: 80vh 100vh 40vh 60vh;
+  grid-template-rows: 80vh 100vh 60vh 25vh;
   grid-template-areas: 
   "header"
   "brief-idea"
@@ -118,7 +118,10 @@ transform: translateX(-1rem);
 
 .nav-logo{
 
-
+  display: inline;
+  max-width: 20vw;
+  max-height: 8vh;
+  transform: scale(0.5);
   color: #E8DFCE;
 }
 
@@ -169,7 +172,7 @@ h3{
 }
 
 .video-btn{
-  min-height: 50vh;
+  min-height: 60vh;
   grid-area: video;
 }
 
@@ -194,7 +197,7 @@ h3{
 
 #footer{
   width: 100%;
-  min-height: 20vh;
+  max-height: 25vh;
   margin: 0rem auto;
   text-align: center;
   grid-area: footer;
@@ -207,7 +210,7 @@ h3{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin: 5rem auto;
+  margin: 2rem auto;
   max-width: 80%;
   min-height: auto;
   padding-bottom: 2rem;
@@ -228,7 +231,7 @@ h3{
 
 .fb-img-footer{
   max-width: 60%;
-  max-height: 6rem;
+  max-height: 3rem;
   opacity: 100%;
   margin: 1rem auto 0 auto;
 }
