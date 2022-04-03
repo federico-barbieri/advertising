@@ -491,9 +491,9 @@ transform: translateX(-1rem);
     cursor: pointer;
   }
 
-  /* THINGS CONTENT */
+  /* HOURS CONTENT */
 
-#things-text{
+#hours-text{
     width: 80%;
     height: 25rem;
     display: flex;
@@ -506,7 +506,7 @@ transform: translateX(-1rem);
     padding: 0 0.5rem;
   }
   
-  .things-title{
+  .hours-title{
     font-size: 2rem;
     font-family: noka, sans-serif;
 
@@ -516,7 +516,7 @@ transform: translateX(-1rem);
 
   }
   
-  .things-btn{
+  .hours-btn{
     
     font-size: 1.5rem;
     color: #1F2125;
