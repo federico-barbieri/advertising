@@ -82,7 +82,9 @@ nav{
   clip-path: circle(450px);
   --wekbkit-clip-path: circle(450px);
   height: 130vh;
+  /*background-color: #1F2125;*/
   background-color: black;
+  z-index: 90;
 }
 
 .nav-ul li{
@@ -108,7 +110,7 @@ transform: translateX(-1rem);
 .fa-bars{
   transform: scale(2);
   cursor: pointer;
-  z-index: 30;
+  z-index: 200;
 
 
  
