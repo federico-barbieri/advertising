@@ -29,7 +29,7 @@ body{
   display: grid;
   
   grid-template-columns: 1fr;
-  grid-template-rows: 80vh 100vh 60vh 30vh;
+  grid-template-rows: 100vh 100vh 60vh 30vh;
   grid-template-areas: 
   "header"
   "brief-idea"
@@ -44,7 +44,7 @@ body{
 
 #header{
   width: 100vw;
-  min-height: 80vh;
+  min-height: 100vh;
   grid-area: header;
 }
 
@@ -75,6 +75,7 @@ nav{
   --wekbkit-clip-path: circle(0px);
   opacity: 98%;
   transition: all 1s ease-in;
+  font-size: 1rem;
 }
 
 .nav-ul.open{
@@ -89,7 +90,10 @@ nav{
 
 .nav-ul li{
 color: white;
-transform: translateX(-1rem);
+transform: translateX(0rem);
+font-family: poppins, sans-serif;
+font-weight: 100;
+font-style: normal;
 }
 
 .about-li{
