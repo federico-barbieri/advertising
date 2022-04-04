@@ -42,18 +42,13 @@ a:visited{
     "touch"
     "footer";
     
-    
     margin: 0 auto;
     background-color: #1F2125;
     color: #E8DFCE;
     font-family: poppins, sans-serif;
-
     font-weight: 100;
-    
     font-style: normal;
-  
     }
-
 
 
 /* header */
@@ -269,9 +264,7 @@ transform: translateX(-1rem);
     width: 100vw;
     min-height: 100vh;
     font-family: poppins, sans-serif;
-
     font-weight: 100;
-    
     font-style: normal;
     text-align: center;
     margin: 0 0;
@@ -285,20 +278,15 @@ transform: translateX(-1rem);
 
 
 .about-h2{
-    
     margin: 2rem auto 2rem auto;
     font-size: 2.5rem;
     font-family: noka, sans-serif;
-
     font-weight: 100;
-    
     font-style: normal;
-
 }
 
 .about-p{
     max-width: 80vw;
-    
     margin: 0rem auto 2rem auto;
     font-size: 1.2rem;
     text-align: left;
@@ -307,14 +295,25 @@ transform: translateX(-1rem);
 /* MEDIA QUERY FOR #ABOUT IN IPAD */
 
 @media only screen and (min-width: 800px){
-  #about{
 
+    .container{
+    grid-template-rows: 100vh 80vh 100vh 250vh 60vh 60vh 20vh;
+}
+  #about{
     margin: 0 0;
+    min-height: 80vh;
     grid-area: about;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+}
+.about-h2{
+  margin: 2rem auto 2rem auto;
+  font-size: 3rem;
+  font-family: noka, sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 .ex1{
   display: inline;
@@ -356,12 +355,18 @@ transform: translateX(-1rem);
   #about{
     width: 100vw;
     margin: 1rem auto;
+    max-height: 70vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 .about-p{
   width: 100vw;
   height: 50vh;
   margin: 0rem 0rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
   display: grid;
   grid-template-columns: 40vw 40vw;
@@ -376,7 +381,7 @@ transform: translateX(-1rem);
 }
 .about-h2{
   margin: 2rem auto 2rem auto;
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-family: noka, sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -464,34 +469,25 @@ cursor: pointer;
 #copywriting{
     width: 100vw;
     min-height: 100vh;
-    
     font-family: poppins, sans-serif;
-
     font-weight: 100;
-    
     font-style: normal;
     text-align: center;
     margin: 0 0;
     grid-area: copywriting;
 }
 
-
-
 .copywriting-h2{
-    
     margin: 0 auto 2rem auto;
     font-size: 2.5rem;
     padding-top: 5rem;
     font-family: noka, sans-serif;
-
     font-weight: 100;
-    
     font-style: normal;
 }
 
 .copywriting-p{
     max-width: 80vw;
-    
     margin: 0rem auto 2rem auto;
     font-size: 1.2rem;
     text-align: left;
@@ -514,9 +510,7 @@ cursor: pointer;
   .ada-title{
     font-size: 2rem;
     font-family: noka, sans-serif;
-
     font-weight: 100;
-    
     font-style: normal;
   }
   
@@ -548,19 +542,14 @@ cursor: pointer;
   .moet-title{
     font-size: 2rem;
     font-family: noka, sans-serif;
-
     font-weight: 100;
-    
     font-style: normal;
-
   }
   
   
   .moet-btn{
-    
     font-size: 1.5rem;
     color: #1F2125;
-
     padding: 0.5rem 2rem 0.5rem 2rem;
     margin: 2rem auto 1rem auto;
     border: 1px solid white;
@@ -585,24 +574,253 @@ cursor: pointer;
   .holocaust-title{
     font-size: 2rem;
     font-family: noka, sans-serif;
-
     font-weight: 100;
-    
     font-style: normal;
-
   }
   
   
   .holocaust-btn{
-    
     font-size: 1.5rem;
     color: #1F2125;
-
     padding: 0.5rem 2rem 0.5rem 2rem;
     margin: 2rem auto 1rem auto;
     border: 1px solid white;
     cursor: pointer;
   }
+
+  /* MINUTE MAID SECTION */
+
+  #minute-project{
+    width: 80%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem auto 5rem auto;
+    text-align: center;
+    border: 1px solid gray;
+  }
+  
+  
+  .minute-title{
+    font-size: 2rem;
+    font-family: noka, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  
+  .minute-btn{
+    font-size: 1.5rem;
+    color: #1F2125;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin: 2rem auto 1rem auto;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  /* MEDIA QUERY FOR COPYWRITING IN IPAD */
+
+@media only screen and (min-width: 800px){
+
+  #copywriting{
+    width: 100vw;
+    min-height: 100vh;
+    font-family: poppins, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    margin: 0 0;
+    grid-area: copywriting;
+    border: 1px solid green;
+}
+
+.copywriting-h2{
+    margin: 0 auto 2rem auto;
+    font-size: 3rem;
+    padding-top: 0rem;
+    font-family: noka, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.copywriting-p{
+    max-width: 80vw;
+    margin: 0rem auto 2rem auto;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.ada-title{
+  font-size: 2.5rem;
+}
+
+.ada-btn{
+  font-size: 1rem;
+}
+
+.moet-title{
+  font-size: 2.5rem;
+}
+
+.moet-btn{
+  font-size: 1rem;
+}
+
+.holocaust-title{
+  font-size: 2.5rem;
+}
+
+.holocaust-btn{
+  font-size: 1rem;
+}
+.minute-title{
+  font-size: 2.5rem;
+}
+
+.minute-btn{
+  font-size: 1rem;
+}
+}
+
+
+ /* MEDIA QUERY FOR COPYWRITING IN DESKTOP */
+
+ @media only screen and (min-width: 1000px){
+  .container{
+    grid-template-rows: 100vh 80vh 110vh 250vh 60vh 60vh 20vh;
+  }
+  #copywriting{
+    width: 100vw;
+    min-height: 110vh;
+    font-family: poppins, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    margin: 5rem 0;
+    grid-area: copywriting;
+    border: 1px solid green;
+}
+
+.copywriting-h2{
+    margin: 3rem auto 2rem auto;
+    font-size: 4rem;
+    padding-top: 0rem;
+    font-family: noka, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.copywriting-p{
+    max-width: 80vw;
+    margin: 0rem auto 2rem auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#copygrid{
+  display: grid;
+  min-height: 80vh;
+  grid-template-columns: 40vw 40vw;
+  grid-template-rows: 30vh 30vh;
+  grid-template-areas: 
+  "ada moet"
+  "holocaust minute";
+  align-content: center;
+  justify-content: center;
+  row-gap: 2rem;
+  column-gap: 1rem;
+  margin: 2rem auto;
+  padding: 1rem auto;
+  border: 1px solid orange;
+}
+
+#ada-project{
+  grid-area: ada;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+  width: 30vw;
+  min-height: 30vh;
+  max-height: 30vh;
+  max-width: 30vw;
+  margin: 0 0;
+  padding: 0.5rem 1rem;
+}
+
+.ada-title{
+  font-size: 3rem;
+}
+
+.ada-btn{
+  font-size: 1.2rem;
+}
+#moet-project{
+  grid-area: moet;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+  width: 30vw;
+  min-height: 30vh;
+  max-height: 30vh;
+  max-width: 30vw;
+  margin: 0 0;
+  padding: 0.5rem 1rem;
+}
+
+.moet-title{
+  font-size: 3rem;
+}
+
+.moet-btn{
+  font-size: 1.2rem;
+}
+#holocaust-project{
+  grid-area: holocaust;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+  width: 30vw;
+  min-height: 30vh;
+  max-height: 30vh;
+  max-width: 30vw;
+  margin: 0 0;
+  padding: 0.5rem 1rem;
+}
+
+.holocaust-title{
+  font-size: 3rem;
+}
+.holocaust-btn{
+  font-size: 1.2rem;
+}
+#minute-project{
+  grid-area: minute;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+  width: 30vw;
+  min-height: 30vh;
+  max-height: 30vh;
+  max-width: 30vw;
+  margin: 0 0;
+  padding: 0.5rem 1rem;
+}
+
+.minute-title{
+  font-size: 3rem;
+}
+.minute-btn{
+  font-size: 1.2rem;
+}
+
+}
+
 
   
 /* CONTENT ARTICLE */
@@ -618,7 +836,7 @@ cursor: pointer;
     font-style: normal;
     text-align: center;
     background-color: #1F2125;
-    
+    border: 1px solid yellow;
 }
 
 
@@ -748,6 +966,178 @@ cursor: pointer;
     cursor: pointer;
   }
 
+  /* MEDIA QUERY FOR CONTENT IN IPAD */
+
+  @media only screen and (min-width: 800px){
+    .container{
+      grid-template-rows: 100vh 100vh 100vh 110vh 60vh 60vh 20vh;
+    }
+    #content{
+      grid-area: content;
+        width: 100vw;
+        min-height: 110vh;
+        font-family: poppins, sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        text-align: center;
+        background-color: #1F2125;
+        border: 1px solid yellow;
+    }
+    .content-h2{
+        margin: 0 auto 2rem auto;
+        font-size: 2.5rem;
+        padding-top: 5rem;
+        font-family: noka, sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+    
+    .content-p{
+        max-width: 80vw;
+        margin: 0rem auto 2rem auto;
+        font-size: 1.2rem;
+        text-align: center;
+    }  
+    #contentsamples{
+      display: grid;
+      min-height: 70vh;
+      grid-template-columns: 30vw 30vw 30vw;
+      grid-template-rows: 30vh;
+      grid-template-areas: 
+      "summer board five";
+      align-content: center;
+      justify-content: space-around;
+      column-gap: 1rem;
+      margin: 0rem auto;
+      padding: 0rem auto;
+      border: 1px solid pink;
+    }
+    #summer-text{
+      grid-area: summer;
+      width: 30vw;
+      height: 30vh;
+    }
+    #board-text{
+      grid-area: board;
+      width: 30vw;
+      height: 30vh;
+    }
+    #hours-text{
+      grid-area: five;
+      width: 30vw;
+      height: 30vh;
+    }
+
+.summer-title{
+  font-size: 1.2rem;
+}
+
+.summer-btn{
+  font-size: 1rem;
+}
+
+.board-title{
+  font-size: 1.2rem;
+}
+
+.board-btn{
+  font-size: 1rem;
+}
+
+.hours-title{
+  font-size: 1.2rem;
+}
+.hours-btn{
+  font-size: 1rem;
+}
+}
+
+
+/* MEDIA QUERY FOR CONTENT IN DESKTOP */
+
+  @media only screen and (min-width: 1000px){
+    .container{
+      grid-template-rows: 100vh 100vh 100vh 110vh 60vh 60vh 20vh;
+    }
+    #content{
+      grid-area: content;
+        width: 100vw;
+        min-height: 110vh;
+        font-family: poppins, sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        text-align: center;
+        background-color: #1F2125;
+        border: 1px solid yellow;
+    }
+    .content-h2{
+        margin: 0 auto 2rem auto;
+        font-size: 3rem;
+        padding-top: 5rem;
+        font-family: noka, sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+    
+    .content-p{
+        max-width: 80vw;
+        margin: 0rem auto 2rem auto;
+        font-size: 1.5rem;
+        text-align: center;
+    }  
+    #contentsamples{
+      display: grid;
+      min-height: 70vh;
+      grid-template-columns: 30vw 30vw 30vw;
+      grid-template-rows: 30vh;
+      grid-template-areas: 
+      "summer board five";
+      align-content: center;
+      justify-content: space-around;
+      column-gap: 1rem;
+      margin: 0rem auto;
+      padding: 0rem auto;
+      border: 1px solid pink;
+    }
+    #summer-text{
+      grid-area: summer;
+      width: 30vw;
+      height: 30vh;
+    }
+    #board-text{
+      grid-area: board;
+      width: 30vw;
+      height: 30vh;
+    }
+    #hours-text{
+      grid-area: five;
+      width: 30vw;
+      height: 30vh;
+    }
+    .summer-title{
+      font-size: 1.5rem;
+    }
+    
+    .summer-btn{
+      font-size: 1.2rem;
+    }
+    
+    .board-title{
+      font-size: 1.5rem;
+    }
+    
+    .board-btn{
+      font-size: 1.2rem;
+    }
+    
+    .hours-title{
+      font-size: 1.5rem;
+    }
+    .hours-btn{
+      font-size: 1.2rem;
+    }
+  }
+
   /* STACK ARTICLE */
 
 .stack{
@@ -827,6 +1217,88 @@ cursor: pointer;
     height: auto;
   }
 
+/* MEDIA QUERY FOR MY STACK IN DESKTOP */
+
+  @media only screen and (min-width: 1000px){
+    .container{
+    grid-template-rows: 100vh 100vh 100vh 110vh 70vh 60vh 20vh;
+  }
+  .stack{
+  width: 100vw;
+  min-height: 70vh;
+  text-align: center;
+  margin: 1rem 0;
+  grid-area: stack;
+  background-color: #1F2125;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  }
+
+.stack-h2{
+  margin: 0rem auto 3rem auto;
+  font-size: 4rem;
+  font-family: noka, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  
+}
+
+.stack-programmes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  
+  margin: 5rem auto 2rem auto;
+}
+
+
+.program{
+  transform: scale(4);
+
+}
+
+.fa-js{
+  transform: scale(4);
+}
+
+
+/* TOOLS */ 
+
+.tools{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: 4rem auto 1rem auto;
+}
+
+.illustrator{
+  width: 70px;
+  height: auto;
+}
+
+.photoshop{
+  width: 70px;
+  height: auto;
+}
+
+.premiere{
+  width: 70px;
+  height: auto;
+}
+
+.xd{
+  width: 70px;
+  height: auto;
+}
+}
+
 
   /* GET IN TOUCH ARTICLE */
 
@@ -860,16 +1332,54 @@ cursor: pointer;
     font-style: normal;
 
 }
-
-.phone-number{
+  
+  .envelope-mail{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 2rem auto;
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: italic;
+}
+
+
+.mail{
+    padding-left: 0.5rem;
+}
+
+/* MEDIA QUERY FOR GET IN TOUCH IN DESKTOP */
+
+@media only screen and (min-width: 1000px){
+  #touch{
+    width: 100vw;
+    min-height: 60vh;
+    text-align: center;
+    margin: 0 auto;
+    grid-area: touch;
+   
+    background-color: #1F2125;
+    color: #E8DFCE;
+    font-family: poppins, sans-serif;
+
+    font-weight: 100;
+    font-size: 1.5rem;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.touch-h2{
+    margin: 2rem auto 2rem auto;
+    font-size: 3rem;
+    font-family: noka, sans-serif;
+    
+    font-weight: 100;
+    
+    font-style: normal;
+
 }
   
   .envelope-mail{
@@ -882,12 +1392,10 @@ cursor: pointer;
     font-style: italic;
 }
 
-.number{
-    padding-left: 0.5rem;
-}
 
 .mail{
     padding-left: 0.5rem;
+}
 }
   
 
@@ -947,6 +1455,62 @@ cursor: pointer;
     max-height: 6rem;
     opacity: 100%;
     margin: 1rem auto 0 auto;
+  }
+
+  @media only screen and (min-width: 1000px){
+    #footer{
+      width: 100%;
+      min-height: 20vh;
+      margin: 0rem auto;
+      text-align: center;
+      grid-area: footer;
+      background-color:white;
+    }
+    
+    .footer-h4{
+      margin: 4rem auto;
+      z-index: 50;
+      text-align: center;
+      font-family: noka, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      color:black;
+      opacity: 100%;
+      font-size: 3rem;
+      padding-top: 5rem;
+    }
+    
+    .versions{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin: 1rem auto;
+      max-width: 80%;
+      min-height: auto;
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+      
+    }
+  
+  
+    .fa-linkedin{
+        transform: scale(4);
+        padding-right: 0.5rem;
+        color: #0A65C2;
+    }
+  
+    .fa-github{
+      transform: scale(4);
+      color: black;
+    }
+  
+    .fb-img-footer{
+      max-width: 60%;
+      max-height: 10rem;
+      opacity: 100%;
+      margin: 1rem auto 0 auto;
+    }
   }
 
   
