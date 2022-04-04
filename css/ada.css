@@ -406,4 +406,36 @@ h3{
   margin: 0rem auto 1rem auto;
 }
 
+@media only screen and (min-width: 1000px){
+  .versions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem auto 0 auto;
+    max-width: 90%;
+    min-height: auto;
+    padding-bottom: 2rem;
+    
+  }
+  .fa-linkedin{
+    transform: scale(4);
+    padding-right: 0.5rem;
+    color: #0A65C2;
+}
+
+.fa-github{
+  transform: scale(4);
+  color: black;
+}
+
+.fb-img-footer{
+  max-width: 60%;
+  max-height: 8rem;
+  opacity: 100%;
+  margin: 0rem auto 0rem auto;
+  padding-bottom: 3rem;
+}
+}
+
 

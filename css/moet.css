@@ -151,6 +151,69 @@
     font-size: 4rem;
     padding-top: 3rem;
   }
+
+  /* MEDIA QUERY FOR HEADER IN IPADS */
+
+@media only screen and (min-width: 700px){
+  .container{
+    grid-template-rows: 90vh 100vh 80vh 30vh;
+  }
+  .fa-bars{
+    display: none;
+  }
+  .nav-ul.open{
+    display: none;
+    opacity: 0%;
+  }
+  .nav-ul{
+    list-style-type: none;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transform: none;
+    margin: 0rem auto;
+    clip-path: none;
+    --wekbkit-clip-path: none;
+    opacity: 50%;
+    transition: none;
+  }
+  .nav-ul li{
+    color: white;
+    transform: none;
+    }
+    .about-li{
+      padding-top: 0rem;
+      padding-bottom: 0rem;
+  }
+  
+  .copywriting-li{
+      padding-bottom: 0rem;
+  }
+  
+  .content-li{
+      padding-bottom: 0rem;
+  }
+  .nav-logo{
+    margin-left: 3rem;
+  }
+  .moet-title{
+    margin: 5rem auto 1rem auto;
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .moet-title{
+    margin: 8rem auto 1rem auto;
+    font-size: 7rem;
+  }
+}
+
+/* MAIN*/
   
   .moet-info{
     width: 80vw;
@@ -174,6 +237,57 @@
   .moet-idea{
     text-align: right;
     margin-top: 8rem;
+  }
+
+  @media only screen and (min-width: 800px){
+    .moet-info{
+      width: 80vw;
+      min-height: 80vh;
+      font-size: 1rem;
+      color: #E8DFCE;
+      margin: 5rem auto 3rem auto;
+      text-align: left;
+      grid-area: brief-idea;
+    }
+    
+    h3{
+      display: block;
+      margin: 2rem auto;
+      border-bottom: 0.5px solid #E8DFCE;
+      font-size: 2rem;
+      color: #E8DFCE;
+    }
+    
+    
+    .moet-idea{
+      text-align: right;
+      margin-top: 8rem;
+    }
+  }
+
+  @media only screen and (min-width: 1000px){
+    .moet-info{
+      width: 80vw;
+      min-height: 80vh;
+      font-size: 1rem;
+      color: #E8DFCE;
+      margin: 5rem auto 1rem auto;
+      text-align: left;
+      grid-area: brief-idea;
+  
+    }
+    
+    h3{
+      display: block;
+      margin: 2rem auto;
+      border-bottom: 0.5px solid #E8DFCE;
+      font-size: 3rem;
+      color: #E8DFCE;
+    }
+    .moet-idea{
+      text-align: right;
+      margin-top: 8rem;
+    }
   }
   
   .video-btn{
@@ -199,6 +313,61 @@
     font-family: poppins, sans-serif;
     font-weight: 100;
     font-style: normal;
+  }
+
+  @media only screen and (min-width: 800px){
+    .video-btn{
+      min-height: 60vh;
+      grid-area: video;
+    }
+    
+    .moet-video{
+      display: block;
+      margin-bottom: 3rem;
+      width: 80%;
+      height: auto;
+      margin: 0 auto 5rem auto;
+    
+    }
+    
+    .back{
+      background-color: #E8DFCE;
+      font-size: 1rem;
+      color: #1F2125;
+      padding: 0.5rem 2rem 0.5rem 2rem;
+      margin: 0 auto 5rem auto;
+      font-family: poppins, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+  }
+  }
+
+  @media only screen and (min-width: 1000px){
+    .video-btn{
+      min-height: 50vh;
+      grid-area: video;
+  
+    }
+    
+    .moet-video{
+      display: block;
+      margin-bottom: 3rem;
+      width: 80%;
+      height: auto;
+      margin: 0 auto 5rem auto;
+      
+    }
+    
+    .back{
+      background-color: #E8DFCE;
+      font-size: 1rem;
+      color: #1F2125;
+      padding: 0.5rem 2rem 0.5rem 2rem;
+      margin: 0 auto 5rem auto;
+      font-family: poppins, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+  }
   }
   
   /* FOOTER */
@@ -242,4 +411,36 @@
     max-height: 5rem;
     opacity: 100%;
     margin: 0rem auto 1rem auto;
+  }
+
+  @media only screen and (min-width: 1000px){
+    .versions{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin: 5rem auto 0 auto;
+      max-width: 90%;
+      min-height: auto;
+      padding-bottom: 2rem;
+      
+    }
+    .fa-linkedin{
+      transform: scale(4);
+      padding-right: 0.5rem;
+      color: #0A65C2;
+  }
+  
+  .fa-github{
+    transform: scale(4);
+    color: black;
+  }
+  
+  .fb-img-footer{
+    max-width: 60%;
+    max-height: 8rem;
+    opacity: 100%;
+    margin: 0rem auto 0rem auto;
+    padding-bottom: 3rem;
+  }
   }
