@@ -373,8 +373,7 @@ transform: translateX(-1rem);
   grid-template-areas: 
   "example1 example2"
   "example3 example4";
-  row-gap: 1rem;
-  column-gap: 1rem;
+
   align-content: center;
   justify-content: center;
 }
