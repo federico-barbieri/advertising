@@ -1136,11 +1136,11 @@ cursor: pointer;
     text-align: center;
     margin: 0 0;
     grid-area: stack;
-  background-color: #1F2125;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    background-color: #1F2125;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .stack-h2{
@@ -1149,6 +1149,7 @@ cursor: pointer;
     font-family: noka, sans-serif;
     font-weight: 100;
     font-style: normal;
+    padding-top: 3rem;
 }
 
 .stack-programmes{
