@@ -1133,7 +1133,7 @@ cursor: pointer;
   /* WEB DEVELOPMENT ARTICLE */
 
 #development{
-  grid-area: development;
+    grid-area: development;
     width: 100vw;
     min-height: 100vh;
     font-family: poppins, sans-serif;
@@ -1499,7 +1499,7 @@ cursor: pointer;
   width: 100vw;
   min-height: 70vh;
   text-align: center;
-  margin: 1rem 0;
+  margin: 0rem 0 0 0;
   grid-area: stack;
   background-color: #1F2125;
   display: flex;
