@@ -1,4 +1,4 @@
-// hamburger 
+
 
 let hamburger = document.querySelector('.fa-bars');
 
