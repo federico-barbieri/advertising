@@ -1236,7 +1236,7 @@ cursor: pointer;
     cursor: pointer;
   }
 
-  /* WORLD CARDS CONTENT */
+  /* WORLD CARDS CONTENT 
 
 #worldcards-text{
     width: 80%;
@@ -1270,6 +1270,7 @@ cursor: pointer;
     border: 1px solid white;
     cursor: pointer;
   }
+  */
 
   /* MEDIA QUERY FOR WEB DEVELOPMENT IN IPAD */
 
@@ -1293,10 +1294,10 @@ cursor: pointer;
     #developmentsamples{
       display: grid;
       min-height: 70vh;
-      grid-template-columns: 30vw 30vw 30vw;
+      grid-template-columns: 1fr 1fr;
       grid-template-rows: 30vh;
       grid-template-areas: 
-      "summer board five";
+      "summer board";
       align-content: center;
       justify-content: space-around;
       column-gap: 1rem;
@@ -1313,11 +1314,14 @@ cursor: pointer;
       width: 30vw;
       height: 30vh;
     }
+
+    /*
     #worldcards-text{
       grid-area: five;
       width: 30vw;
       height: 30vh;
     }
+    */
 
 .danishcript-title{
   font-size: 1.2rem;
@@ -1335,12 +1339,14 @@ cursor: pointer;
   font-size: 1rem;
 }
 
+/*
 .worldcards-title{
   font-size: 1.2rem;
 }
 .worldcards-btn{
   font-size: 1rem;
 }
+*/
 }
 
 
@@ -1366,10 +1372,10 @@ cursor: pointer;
     #developmentsamples{
       display: grid;
       min-height: 70vh;
-      grid-template-columns: 30vw 30vw 30vw;
+      grid-template-columns: 1fr 1fr;
       grid-template-rows: 30vh;
       grid-template-areas: 
-      "summer board five";
+      "summer board";
       align-content: center;
       justify-content: space-around;
       column-gap: 1rem;
@@ -1386,11 +1392,13 @@ cursor: pointer;
       width: 30vw;
       height: 30vh;
     }
+    /*
     #worldcards-text{
       grid-area: five;
       width: 30vw;
       height: 30vh;
     }
+    */
     .danishcript-title{
       font-size: 1.5rem;
     }
@@ -1406,13 +1414,14 @@ cursor: pointer;
     .chesspressionism-btn{
       font-size: 1.2rem;
     }
-    
+    /*
     .worldcards-title{
       font-size: 1.5rem;
     }
     .worldcards-btn{
       font-size: 1.2rem;
     }
+    */
   }
 
   /* STACK ARTICLE */
