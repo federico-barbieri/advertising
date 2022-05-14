@@ -275,6 +275,10 @@
     font-weight: 100;
     font-style: normal;
   }
+
+  .project-link{
+      color: coral;
+  }
   
   @media only screen and (min-width: 800px){
 
