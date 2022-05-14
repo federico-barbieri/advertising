@@ -148,7 +148,7 @@
   
   @media only screen and (min-width: 700px){
     .container{
-      grid-template-rows: 90vh 100vh 120vh 30vh;
+      grid-template-rows: 90vh 100vh 140vh 30vh;
     }
     .fa-bars{
       display: none;
@@ -239,9 +239,9 @@
       align-items: center;
       justify-content: center;
       width: 90%;
-      min-height: 100vh;
+      min-height: 140vh;
       margin: 0 auto 4rem auto;
-      border: 2px solid red;
+
   }
 
   .sa-img{
@@ -277,6 +277,19 @@
   }
   
   @media only screen and (min-width: 800px){
+
+    .container{
+        grid-template-rows: 100vh 100vh 170vh 30vh;
+        grid-template-areas: 
+        "header"
+        "brief-idea"
+        "process"
+        "footer";
+        margin: 0 auto;
+        background-color: #1F2125;
+        color: #E8DFCE;
+      }
+
     .danishcript-info{
       width: 80vw;
       min-height: 80vh;
@@ -300,9 +313,24 @@
       text-align: right;
       margin-top: 8rem;
     }
+
+    .danishcript-process{
+        grid-area: process;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        min-height: 170vh;
+        margin: 0 auto 4rem auto;
+    }
   }
   
   @media only screen and (min-width: 1000px){
+    .container{
+
+        grid-template-rows: 100vh 100vh 250vh 30vh;
+      }
     .danishcript-info{
       width: 80vw;
       min-height: 80vh;
@@ -325,49 +353,33 @@
       text-align: right;
       margin-top: 8rem;
     }
-  }
-  
-  .back{
-    background-color: #E8DFCE;
-    font-size: 1rem;
-    color: #1F2125;
-    padding: 0.5rem 2rem 0.5rem 2rem;
-    margin: 0 auto 5rem auto;
-    font-family: poppins, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  
-  
-  @media only screen and (min-width: 800px){
-    
-    .back{
-      background-color: #E8DFCE;
-      font-size: 1rem;
-      color: #1F2125;
-      padding: 0.5rem 2rem 0.5rem 2rem;
-      margin: 0 auto 5rem auto;
-      font-family: poppins, sans-serif;
-      font-weight: 100;
-      font-style: normal;
-  }
-  }
-  
-  @media only screen and (min-width: 1000px){
 
-    
+    .danishcript-process{
+        grid-area: process;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 90%;
+        min-height: 250vh;
+        margin: 0 auto 4rem auto;
+
+    }
     .back{
-      background-color: #E8DFCE;
-      font-size: 1rem;
-      color: #1F2125;
-      padding: 0.5rem 2rem 0.5rem 2rem;
-      margin: 0 auto 5rem auto;
-      font-family: poppins, sans-serif;
-      font-weight: 100;
-      font-style: normal;
-  }
-  }
+        background-color: #E8DFCE;
+        font-size: 2rem;
+        color: #1F2125;
+        padding: 0.5rem 2rem 0.5rem 2rem;
+        margin: 0 auto 5rem auto;
+        font-family: poppins, sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }  
+}
+  
+
+  
+
   
   /* FOOTER */
   
