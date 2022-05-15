@@ -1140,7 +1140,7 @@ cursor: pointer;
 #development{
     grid-area: development;
     width: 100vw;
-    min-height: 110vh;
+    min-height: 120vh;
     font-family: poppins, sans-serif;
 
     font-weight: 100;
